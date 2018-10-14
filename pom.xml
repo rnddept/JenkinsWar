@@ -15,6 +15,26 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <plugin>
+		<groupId>org.apache.tomcat.maven</groupId>
+		<artifactId>tomcat8-maven-plugin</artifactId>
+		<version>2.2</version>
+		<configuration>
+			<url>http://ip-172-31-28-247.ap-south-1.compute.internal:8080/manager/text</url>
+			<server>TomcatServer</server>
+			<path>/myWebApp</path>
+		</configuration>
+	</plugin
+  <plugin>
+		<groupId>org.apache.tomcat.maven</groupId>
+		<artifactId>tomcat7-maven-plugin</artifactId>
+		<version>2.2</version>
+		<configuration>
+			<url>http://localhost:8080/manager/text</url>
+			<server>TomcatServer</server>
+			<path>/mkyongWebApp</path>
+		</configuration>
+	</plugin
   <build>
     <finalName>JenkinsWar</finalName>
   </build>
