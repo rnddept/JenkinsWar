@@ -17,7 +17,7 @@
   </dependencies>
   <plugin>
 		<groupId>org.apache.tomcat.maven</groupId>
-		<artifactId>tomcat8-maven-plugin</artifactId>
+		<artifactId>tomcat7-maven-plugin</artifactId>
 		<version>2.2</version>
 		<configuration>
 			<url>http://ip-172-31-28-247.ap-south-1.compute.internal:8080/manager/text</url>
